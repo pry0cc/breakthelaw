@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 		$("#broken-counter").html(counter);
 		if (counter == 7) {
-			$("#video").append(`<iframe width="560" height="315" src="https://www.youtube.com/embed/L397TWLwrUU" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
+			$("#video").append(`<iframe width="560" height="315" src="https://www.youtube.com/embed/L397TWLwrUU?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
 		}
 		$("#messages").append(message);
     	$("#message-" + counter).fadeTo(2000, 0).slideUp(500, function(){
