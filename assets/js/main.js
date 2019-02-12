@@ -22,7 +22,7 @@ $(document).ready(function() {
 					`</div>`
 
 		let invite = `<div id="message-badass" class="alert alert-primary alert-dismissible fade show" role="alert">` +
-  					`<strong>Wow!</strong> You really are a badass. You're invited to <a href='https://www.0x00sec.org/'>0x00sec.org</a>` +
+  					`<strong>Wow!</strong> You really are a badass. You're invited to <a href='https://0x00sec.org/'>0x00sec.org</a>` +
   					`<button type="button" class="close" data-dismiss="alert" aria-label="Close">` + 
     					`<span aria-hidden="true">&times;</span>` +
   					`</button>` +
