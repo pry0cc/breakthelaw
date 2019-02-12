@@ -21,8 +21,8 @@ $(document).ready(function() {
   					`</button>` +
 					`</div>`
 
-		let message2 = `<div id="message-badass" class="alert alert-primary alert-dismissible fade show" role="alert">` +
-  					`<strong>Wow!</strong> You really are a badass. You're invited to 0x00sec.org` +
+		let invite = `<div id="message-badass" class="alert alert-primary alert-dismissible fade show" role="alert">` +
+  					`<strong>Wow!</strong> You really are a badass. You're invited to <a href='https://www.0x00sec.org/'>0x00sec.org</a>` +
   					`<button type="button" class="close" data-dismiss="alert" aria-label="Close">` + 
     					`<span aria-hidden="true">&times;</span>` +
   					`</button>` +
@@ -34,7 +34,7 @@ $(document).ready(function() {
 		}
 
 		if (counter == 34) {
-			$("#messages").append(message2)
+			$("#messages").append(invite)
 		}
 		$("#messages").append(message);
     	$("#message-" + counter).fadeTo(2000, 0).slideUp(500, function(){
