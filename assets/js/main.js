@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 		$("#broken-counter").html(counter);
 		if (counter == 5) {
-			$("#video").append(`<iframe width="560" height="315" src="https://www.youtube.com/embed/L397TWLwrUU?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
+			$("#video").append(`<iframe width="560" height="315" src="https://www.youtube.com/embed/L397TWLwrUU?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>`);
 		}
 
 		if (counter == 34) {
